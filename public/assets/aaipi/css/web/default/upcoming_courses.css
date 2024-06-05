@@ -1,0 +1,46 @@
+.course-cover-container-custom{
+    height: 300px!important;
+}
+
+.course-cover-container-custom img{
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.group-badge-date{
+    position: relative;
+    left: -5px;
+    transform: skew(20deg);
+}
+
+.badge-date{
+    position: absolute;
+    bottom: 0px;
+    left: 7px;
+    background: var(--primary);
+    padding: 5px 11px;
+    z-index: 2;
+    transform: skew(-20deg);
+}
+
+.badge-date::before{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: -7px!important;
+    background: var(--primary);
+    width: 50px;
+    height: 100%;
+    background-color: var(--primary);
+    transform: skew(20deg);
+    z-index: -1;
+}
+
+.calender-icon{
+    display: inline-block;
+    transform: skew(0deg);
+}
+
+.badge-date .group-badge-date span{
+    transform: skew(0deg);
+}

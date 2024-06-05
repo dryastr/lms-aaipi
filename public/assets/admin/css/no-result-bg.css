@@ -1,0 +1,200 @@
+.no-result.default-no-result .custom-bookmarks-logo {
+    background-image: linear-gradient(180deg, var(--primary), var(--secondary));
+    /* #B2BCAA */
+    /* background-image: none; */
+    border-radius: 10%;
+}
+
+.no-result .no-result-logo img {
+    width: 120% !important;
+}
+
+/* .no-result.default-no-result {
+    background-image: linear-gradient(180deg,#0B3954, #fa8b83);
+} */
+
+/* .text-light {
+    color: var(--panel-bg)!important;
+}
+
+.text-light-grey {
+    color: var(--gray300)!important;
+} */
+
+/* .no-result.default-no-result .title {
+    color: #fff;
+} */
+
+/* .no-result.default-no-result .custom-bookmarks-logo img {
+    width: 80%;
+} */
+
+/* .icon-bg-topics {
+    box-shadow: 0px 12px 23px 0px #bbb;
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+} */
+
+.cup-icon {
+    width: 120px;
+    /* height: 0; */
+}
+
+.terms-container .title-terms,
+.link-dev {
+    color: var(--primary);
+}
+
+.terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.terms-container p {
+    margin-bottom: 10px;
+}
+
+.terms-container h2.title-terms {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.terms-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.terms-container a {
+    color: #007bff;
+}
+
+.terms-container ul {
+    margin-bottom: 10px;
+}
+
+.terms-container li {
+    margin-bottom: 5px;
+}
+
+.terms-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.terms-container a:hover {
+    text-decoration: underline;
+}
+
+.terms-container ul li {
+    list-style-type: disc;
+}
+
+.terms-container ul li {
+    margin-left: 50px;
+}
+
+.card-body-offline-bank{
+    padding: 15px 25px;
+    word-break: break-word;
+}
+
+.w-font-title-bank{
+    width: 85px;
+    min-width: 85px;
+    max-width: 85px;
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.68); /* Ubah alpha channel (nilai terakhir) untuk kejelasan latar belakang */
+    backdrop-filter: blur(10px); /* Menggunakan filter blur dengan nilai yang diinginkan */
+    -webkit-backdrop-filter: blur(10px); /* Untuk dukungan browser Webkit */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modal-content, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.close-modal-bank {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 360px){
+    .close-modal-bank{
+        right: 20px;
+    }
+}
+
+.close-modal-bank,
+.close-modal-bank:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+.modal-content {
+    width: 100%;
+}
+}
+
+.modal-content-custom{
+    padding: 0 20px;
+    max-width: 25rem!important;
+    height: fit-content;
+    object-fit: contain;
+    object-position: center;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}

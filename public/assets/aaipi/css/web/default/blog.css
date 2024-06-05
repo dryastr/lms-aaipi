@@ -1,0 +1,125 @@
+.site-top-banner-custom{
+    height: 230px!important;
+}
+
+/* Page Berita */
+.badge-subtitle {
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.19;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 15px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .1);
+    background-color: var(--primary);
+    transition: all .5s ease;
+}
+
+.span-blog img{
+    width: 24px!important;
+    margin-right: 5px;
+    border-radius: 0;
+}
+
+.span-blog i{
+    margin-right: 5px;
+}
+
+.input-search-blog{
+    border-radius: 8px 0 0 8px;
+}
+
+.btn-search-blog{
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+    border-color: #b20a0a;
+    background-color: #b20a0a;
+    padding: 0 15px;
+    height: 40px;
+}
+
+.btn-search-blog:hover{
+    color: #fff;
+}
+
+.blog-socials {
+    width: fit-content;
+    padding: 10px 35px;
+}
+
+.blog-social-facebook{
+    background-color: #3D6AD6;
+}
+
+.blog-social-facebook img{
+    width: 15px!important;
+}
+
+.blog-social-twitter{
+    background-color: #1DA1F3;
+}
+
+.blog-social-linkedin {
+    background-color: #0077B5;
+}
+
+.blog-grid-detail-custom{
+    padding: 15px 15px 24px 15px!important;
+}
+
+.blog-grid-desc{
+    border: none!important;
+}
+
+.tab-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.selected-option {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.selected-option:hover {
+    background-color: #f9f9f9;
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    padding: 0;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dropdown-options li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-options li:hover {
+    background-color: #f9f9f9;
+}

@@ -1,0 +1,30 @@
+<?php
+
+namespace App\PaymentChannels;
+
+use App\Models\Order;
+use App\Models\PaymentChannel;
+
+class ChannelManager
+{
+    /**
+     * @return IChannel
+     */
+    public static function makeChannel(PaymentChannel $paymentChannel)
+    {
+        $className = "App\\PaymentChannels\\Drivers\\{$paymentChannel->class_name}\\Channel";
+
+        return new $className($paymentChannel);
+    }
+
+    /**
+     * @return string
+     */
+    public static function makeCallbackUrl(Order $order)
+    {
+        return route('receipt_verify', [
+            'token' => config('services.bank_callback_token'),
+            'receiptId' => $order->id,
+        ]);
+    }
+}

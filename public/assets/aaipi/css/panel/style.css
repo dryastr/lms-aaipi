@@ -1,0 +1,19 @@
+*{
+    outline: none !important;
+}
+
+.file-label{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.webinar-card-custom{
+    height: 200px;
+}
+
+@media screen and (max-width: 767px) {
+    .webinar-card-custom{
+        height: auto;
+    }
+}

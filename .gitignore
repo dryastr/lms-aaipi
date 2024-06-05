@@ -1,0 +1,35 @@
+# Ignore general Laravel vendor directory
+/vendor
+
+# Ignore npm dependency directory
+/node_modules
+
+# Ignore .env file containing sensitive information
+.env
+
+# Ignore various Laravel log files
+/storage/*.log
+/storage/!.gitignore
+
+!/storage/framework
+
+# Ignore PHPUnit testing directory
+/phpunit.xml
+
+# Ignore user-specific files
+!composer.json
+!composer.lock
+Homestead.yaml
+Homestead.json
+.env.testing
+.env.dusk.local
+.env.dusk.testing
+.env.behat.local
+.env.behat.testing
+
+.vscode/
+
+/public/build
+/public/hot
+/public/storage
+/storage/*.key

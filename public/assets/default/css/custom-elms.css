@@ -1,0 +1,63 @@
+:root {
+    --red: #AF0000;
+}
+
+/* .site-top-banner:after{
+    background-color: #75758f !important;
+} */
+
+.top-search-categories-form .breadcrumb-item+.breadcrumb-item:before{
+    padding: 0 5px;
+    font-size: 19px;
+}
+.top-search-categories-form .search-top-banner img{
+    top: 10px;
+}
+.site-top-banner {
+    height: 430px;
+}
+
+.desible{
+    display: none;
+}
+.menu-category label{
+    padding: 10px 20px;
+    border-radius: 50rem;
+}
+.menu-category label.active{
+    background-color: black;
+    color: white;
+}
+
+.navbar-search .search-icon {
+    position: absolute;
+    right: 0px;
+    color: #818894;
+    top: 20px;
+}
+
+.side-menu li{
+    padding: 10px;
+}
+.side-menu li.active{
+    background: var(--red);
+}
+.side-menu li.active a{
+    color: white !important;
+}
+
+figure .webinar-card-body{
+    /* background-color: #0B3954; */
+    color: white;
+}
+
+.stars-card svg{
+    margin-top: -3px;
+}
+
+.webinar-card-body .title:hover{
+    text-decoration: underline;
+}
+.webinar-card .image-box:after{
+    background-image: none !important;
+}

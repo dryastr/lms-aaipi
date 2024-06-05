@@ -1,0 +1,138 @@
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-straight/css/uicons-bold-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css');
+
+.site-top-banner-custom{
+    height: 230px!important;
+}
+
+.course-index-sidebar{
+    z-index: 1;
+}
+
+.accordion-content-wrapper-index{
+    z-index: 2;
+}
+
+.time {
+    /* padding: 20px 20px 20px 20px;  */
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    margin: 6px;
+}
+
+.container_webinar {
+    margin-top: 50px; 
+    width: 1100px;
+}
+
+.course-teacher-card {
+    display: flex;
+}
+
+.img_sidebar_profile {
+    width: 170px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+@media (min-width: 1200px) {
+    .content_first {
+        margin-bottom: 400px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container_webinar {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .position-title-content-course {
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
+
+.btn-cart-custom{
+    padding: 0;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    width: fit-content;
+}
+
+#course-teacher-custom{
+    margin: 0;
+}
+
+.toast-container {
+    position: fixed;
+    width: 370px;
+    top: 20px;
+    right: 20px;
+    z-index: 1050;
+}
+
+.toast {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.toast.show {
+    opacity: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    margin-top: 3px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.close i {
+    font-size: 1.2rem;
+}
+
+.close:hover {
+    color: #100f0f;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    position: relative;
+}
+
+.icon-alert-msg {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.icon-alert-msg i {
+    font-size: 1.3rem;
+    color: #ff355b;
+}
